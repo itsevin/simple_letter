@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff8080, #80b3ff);
+    overflow: hidden;
+  }
+  
+  #envelope-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+  }
+  
+  #envelope {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  #envelope img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #envelope:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 600px) {
+    #envelope-wrapper {
+      width: 100vw;
+    }
+  }
+  
