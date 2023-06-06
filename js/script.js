@@ -1,4 +1,3 @@
 function openContentPage() {
-    window.location.href = "content.html";
-  }
-  
+  window.location.href = "content.html";
+}
